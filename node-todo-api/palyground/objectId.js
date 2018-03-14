@@ -19,15 +19,6 @@ var {name} = user;
 console.log('Name: ',name);
 
 
-
-
-
-
-
-
-
-
-
 MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, dbClient) => {
     if(err) {
         return console.log('Unable to connect to MongoDB Server');
